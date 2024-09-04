@@ -12,7 +12,7 @@ function CartPage() {
   const isEmpty = state.items.length === 0;
 
   const GoBack = () => {
-    navigate("/home");
+    navigate("/");
   };
 
   return (
